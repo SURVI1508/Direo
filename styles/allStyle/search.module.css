@@ -1,0 +1,87 @@
+.search__main__div {
+    width: 65%;
+    height: 7.5rem;
+    display: flex;
+    background: white;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.search__main__div__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search__main__div__container input {
+    width: 19rem;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+.select {
+    width: 12rem;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select__option {
+    position: absolute;
+    background: white;
+    width: 11.9rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.8rem;
+    /* padding: 1rem; */
+    overflow: auto;
+}
+
+.option__link {
+    margin: 0;
+    text-decoration: none;
+    color: gray;
+    padding: 0.5rem;
+}
+
+.option__link:hover {
+    background: rgb(255, 56, 89);
+    color: white;
+}
+
+.select__filter__btn {
+    display: flex;
+    align-items: center;
+    height: 2.7rem;
+    width: 2.7rem;
+    justify-content: center;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: red;
+    font-size: 1.5rem;
+}
+
+.search__main__div__container button {
+    width: 7rem;
+    height: 2.7rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: red;
+}
