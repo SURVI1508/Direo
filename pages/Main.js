@@ -15,7 +15,7 @@ const Main = () => {
             <div>
                 <Header/>
                 <Activity/>
-                <BestListing/>
+                {/* <BestListing/> */}
                 <WhyWe/>
                 <Destination/>
                 <Trusted/>

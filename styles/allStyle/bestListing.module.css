@@ -108,11 +108,10 @@
     top: -1.6rem;
 }
 
-.bestCard__cards__avtar img {
+.bestCard__cards__avtar img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-
 }
 
 .bestCard__rate__container {
