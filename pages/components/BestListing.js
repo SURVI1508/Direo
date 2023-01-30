@@ -26,9 +26,9 @@ const BestListing = () => {
                             <div className={styles.bestCard__cards__info}>
                                 <div className={styles.bestCard__cards__avtar}>
                                     <Image
-                                    width={800}
-                                    height={500}
-                                    src="/images/cat1.jpg" alt="" 
+                                        width={800}
+                                        height={500}
+                                        src="/images/cat1.jpg" alt=""
                                     />
                                 </div>
                                 <h5>Fountain Dubai Walk Nami</h5>

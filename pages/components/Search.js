@@ -40,12 +40,11 @@ const Search = () => {
                         <Link href="" className={styles.option__link}>Hotel</Link>
                     </div> */}
                 </div>
-
                 <div className={styles.select__filter__btn}>
                     <BiFilterAlt />
                 </div>
-
                 <button>Search</button>
+
             </div>
         </div>
     )

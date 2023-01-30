@@ -13,14 +13,14 @@ const Main = () => {
     return (
         <>
             <div>
-                <Header/>
-                <Activity/>
-                {/* <BestListing/> */}
-                <WhyWe/>
-                <Destination/>
-                <Trusted/>
-<Subscribe/>
-<Footer/>
+                <Header />
+                <Activity />
+                <BestListing />
+                <WhyWe />
+                <Destination />
+                <Trusted />
+                <Subscribe />
+                <Footer />
 
             </div>
         </>

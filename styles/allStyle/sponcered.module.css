@@ -1,6 +1,6 @@
 .sponcered__main__div {
     width: 100%;
-    padding: 5rem 3rem;
+    padding: 1rem 3rem;
     box-sizing: border-box;
     /* margin-top: 2rem; */
     /* border-top: 0.001px solid rgba(211, 211, 211, 0.633); */
@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 3rem;
+    margin-top: 0rem;
 
 }
 

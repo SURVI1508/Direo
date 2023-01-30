@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
 
 }
 
@@ -80,17 +80,20 @@
     border: 0.001px solid rgb(220, 220, 220);
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 3rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    gap: 1rem;
 }
 
 .destinatins__container__text {
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
+    text-align: left;
 }
 
 .destinatins__link {
@@ -102,5 +105,10 @@
 .destinatins__link:hover {
     transition: 0.2s;
     color: rgb(255, 42, 78);
+}
 
+@media (max-width:620px) {
+    .destinatins__container {
+        width: 100%;
+    }
 }

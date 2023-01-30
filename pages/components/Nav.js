@@ -4,12 +4,17 @@ import { HiMenuAlt1 } from 'react-icons/hi';
 import { FaUser } from 'react-icons/fa';
 
 const Nav = () => {
+
+    const open = () => {
+        const drawer = document.getElementById("drawer")
+        drawer.style.width = "230px"
+    }
     return (
         <div className={styles.nav__div}>
 
             <div className={styles.nav__Link} class="d-flex align-items-center gap-3">
 
-                <div className={styles.nav__menu__btn}>
+                <div className={styles.nav__menu__btn} onClick={open}>
                     <HiMenuAlt1 />
                 </div>
 

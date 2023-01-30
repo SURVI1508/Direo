@@ -17,7 +17,7 @@ const Activity = () => {
                         activities.map((val, i) => {
                             return (
                                 <>
-                                    <div className={styles.activity__cards} style={{ background: val.img }} key={i}>
+                                    <div className={styles.activity__cards} style={{ background: val.img }} key={val.id}>
                                         <div className={styles.activity__cards__overlay}>
                                             <FaStore style={{ color: val.clr,fontSize:"1.7rem"}} />
                                             <span>{val.cat}</span>

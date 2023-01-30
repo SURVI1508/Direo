@@ -9,10 +9,10 @@ const Trusted = () => {
             </div>
             <div className={styles.trusted__slider__container}>
                 <div className={styles.trusted__slide}>
-                    <div className={styles.trusted__slide__btn}>
+                    {/* <div className={styles.trusted__slide__btn}>
                         <button className={styles.trusted__slide__next__btn}>▶️</button>
                         <button className={styles.trusted__slide__back__btn}>▶️</button>
-                    </div>
+                    </div> */}
 
                     <div className={styles.trusted__slide__avtar}>
                         <img src="/images/cat1.jpg" alt="" />

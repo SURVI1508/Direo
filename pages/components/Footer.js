@@ -3,7 +3,7 @@ import { BsApple, BsFacebook } from 'react-icons/bs';
 import { IoLogoAndroid } from 'react-icons/io';
 import { AiFillTwitterCircle, AiOutlineInstagram, AiOutlineGooglePlus } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
-
+import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -41,13 +41,20 @@ const Footer = () => {
                         <div className={styles.contactUs__container}>
                             <h5>Direo on Mobile</h5><br />
                             <p>Download the Direo app today so you can find your events anytime, anywhere.</p>
-                            <button><BsApple style={{fontSize:"1.3rem"}}/>App store</button>
-                            <button style={{background:"black"}}><IoLogoAndroid style={{fontSize:"1.4rem"}}/>Google Play</button>
+                            <button><BsApple style={{ fontSize: "1.3rem" }} />App store</button>
+                            <button style={{ background: "black" }}><IoLogoAndroid style={{ fontSize: "1.4rem" }} />Google Play</button>
                         </div>
                     </div>
                 </div>
                 <div className={styles.copyright__container}>
-                    All Rights Reserved ©Copyright 2023 by survi 💖
+                    <Image src="/images/dLogo.png"
+                        alt="logo"
+                        width={100}
+                        height={35}
+                    />
+                    <span>
+                        All Rights Reserved ©Copyright 2023
+                    </span>
                 </div>
             </div>
         </>
