@@ -1,0 +1,110 @@
+.activity__main__div {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.activity__main__div__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.activity__main__div__container p {
+    text-align: center;
+}
+
+.activity__card__container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.whyWe__container {
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyWe__img {
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyWe__text {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyWe__text__icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(251, 230, 255);
+    font-size: 2rem;
+    color: rgb(196, 133, 254);
+}
+
+.whyWe__text__text {
+    width: 55%;
+}
+
+.whyWe__text__line {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1.5rem 0;
+
+}
+
+.whyWe__btns {
+    width: 100%;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.whyWe__btns button {
+    background: rgb(255, 42, 78);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+}
+
+.whyWe__btns button:hover {
+    opacity: 80%;
+}

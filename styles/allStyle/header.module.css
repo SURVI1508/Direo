@@ -6,7 +6,7 @@
 
 .header__main__div__overlay {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(58, 55, 55, 0.595);
 }
 
@@ -14,23 +14,31 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     justify-content: flex-start;
 }
 
 .header__main__div__container__text {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 .header__main__div__container__text h1 {
     font-weight: 600;
     font-size: 3rem;
+}
+
+@media (max-width:1000px) {
+    .header__main__div {
+        height: auto;
+    }
 }

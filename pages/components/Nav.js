@@ -19,12 +19,12 @@ const Nav = () => {
 
                 <div className={styles.nav__link__link}>
                     <Link href="/" className={styles.nav__link__link__vist}>Home</Link>
-                    {/* <div className={styles.nav__link__link__toggel}>
+                    <div className={styles.nav__link__link__toggel}>
                         <Link href="" className={styles.nav__link__link__toggel__link}>Home1</Link>
                         <Link href="" className={styles.nav__link__link__toggel__link}>Home1</Link>
                         <Link href="" className={styles.nav__link__link__toggel__link}>Home1</Link>
                         <Link href="" className={styles.nav__link__link__toggel__link}>Home1</Link>
-                    </div> */}
+                    </div>
                     <Link href="/" className={styles.nav__link__link__vist}>Listing</Link>
                     {/* <div className={styles.nav__link__link__toggel} style={{marginLeft:"7rem"}}>
                         <Link href="" className={styles.nav__link__link__toggel__link}>List Map</Link>
@@ -47,7 +47,7 @@ const Nav = () => {
                     <button >Add Listing</button>
                 </div>
                 <div className={styles.nav__btn__user}>
-                    <FaUser/>
+                    <FaUser />
                 </div>
             </div>
 

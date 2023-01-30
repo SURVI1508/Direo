@@ -1,0 +1,89 @@
+.activity__main__div {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    border-bottom: 0.001px solid lightgray;
+}
+
+.activity__main__div__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.activity__main__div__container p {
+    text-align: center;
+}
+
+.trusted__slider__container {
+    width: 80% !important;
+    /* border: 2px solid red; */
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: scroll !important; */
+    /* border: 1px solid red; */
+}
+
+.trusted__slide__avtar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* background: yellow; */
+}
+
+.trusted__slide__avtar img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* background: yellow; */
+}
+
+.trusted__slide {
+    width: 60%;
+    /* border: 2px solid rgb(0, 60, 255); */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.trusted__slide__btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+}
+
+.trusted__slide__btn button {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+.trusted__slide p {
+    color: rgb(180, 180, 180);
+}

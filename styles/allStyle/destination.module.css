@@ -1,0 +1,106 @@
+.activity__main__div {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+
+}
+
+.activity__main__div__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.activity__main__div__container p {
+    text-align: center;
+}
+
+.activity__card__container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center !important;
+    /* border: 2px solid red; */
+    gap: 1.5rem;
+    /* margin-top: 1.5rem; */
+}
+
+.activity__cards {
+    width: 37rem;
+    height: 13rem;
+    /* background: url("/images/cat1.jpg"); */
+    border-radius: 0.3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+.activity__cards__overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2rem;
+}
+
+.activity__cards__overlay button {
+    border: none;
+    outline: none;
+    background: green;
+    border-radius: 20rem;
+    color: white;
+    padding: 0.2rem 1.3rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+
+.activity__cards:hover .activity__cards__overlay {
+    transition: 0.5s;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+}
+
+.destinatins__container {
+    width: 80%;
+    border: 0.001px solid rgb(220, 220, 220);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.destinatins__container__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.destinatins__link {
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    font-size: 1.1rem;
+}
+
+.destinatins__link:hover {
+    transition: 0.2s;
+    color: rgb(255, 42, 78);
+
+}
