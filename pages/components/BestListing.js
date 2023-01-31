@@ -26,7 +26,7 @@ const BestListing = () => {
                                                 <button>{val.cat}</button>
                                                 <div className={styles.bestCard__cards__like__btn}>
                                                     {/* <AiOutlineHeart /> */}
-                                                    💖
+                                                    {/* 💖 */}
                                                 </div>
                                             </div>
                                             <div className={styles.bestCard__cards__info}>
