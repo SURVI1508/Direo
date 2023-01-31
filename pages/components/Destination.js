@@ -4,7 +4,7 @@ const Destination = () => {
     return (
         <>
             <div className={styles.activity__main__div}>
-                <div className={styles.activity__main__div__container}>
+                <div className={styles.activity__main__div__container} >
                     <h1>Destination We Love</h1>
                     <p>Explore the popular listings around the world</p>
                 </div>
