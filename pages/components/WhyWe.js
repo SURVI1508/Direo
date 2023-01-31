@@ -57,4 +57,4 @@ const WhyWe = () => {
     )
 }
 
-export default WhyWe
+export  {WhyWe}

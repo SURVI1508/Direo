@@ -1,5 +1,5 @@
 import styles from '../../styles/allStyle/subscribe.module.css'
-import Sponcered from './Sponcered'
+import {Sponcered} from './Sponcered'
 const Subscribe = () => {
     return (
         <>
@@ -26,4 +26,4 @@ const Subscribe = () => {
     )
 }
 
-export default Subscribe
+export  {Subscribe}

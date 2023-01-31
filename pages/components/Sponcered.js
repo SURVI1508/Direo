@@ -43,4 +43,4 @@ const Sponcered = () => {
     )
 }
 
-export default Sponcered
+export  {Sponcered}

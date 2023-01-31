@@ -30,4 +30,4 @@ const Trusted = () => {
     )
 }
 
-export default Trusted
+export  {Trusted}

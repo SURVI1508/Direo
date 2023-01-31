@@ -84,4 +84,4 @@ const BestListing = () => {
     )
 }
 
-export default BestListing
+export  {BestListing}
