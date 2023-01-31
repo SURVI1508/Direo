@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from '../../styles/allStyle/nav.module.css'
 import { HiMenuAlt1 } from 'react-icons/hi';
 import { FaUser } from 'react-icons/fa';
-
+import Image from 'next/image';
 const Nav = () => {
 
     const open = () => {
@@ -19,7 +19,10 @@ const Nav = () => {
                 </div>
 
                 <div className={styles.nav__logo}>
-                    <img src="./images/dLogo.png" alt="" />
+                    <Image src="/images/dLogo.png" alt="" 
+                    width={100}
+                    height={35}
+                    />
                 </div>
 
                 <div className={styles.nav__link__link}>

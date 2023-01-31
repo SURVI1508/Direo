@@ -1,6 +1,6 @@
 import styles from '../../styles/allStyle/whyWe.module.css'
 import { SiAcclaim } from 'react-icons/si';
-
+import Image from 'next/image';
 const WhyWe = () => {
     return (
         <>
@@ -10,7 +10,11 @@ const WhyWe = () => {
                     <p>Explore the popular listings around the world</p>
                     <div className={styles.whyWe__container}>
                         <div className={styles.whyWe__img}>
-                            <img src="/images/mobile.png" alt="" />
+                            <Image src="/images/mobile.png" alt="" 
+                            width={50}
+                            height={400}
+
+                            />
                         </div>
                         <div className={styles.whyWe__text}>
                             <div className={styles.whyWe__text__line}>

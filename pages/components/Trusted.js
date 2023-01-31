@@ -1,5 +1,5 @@
 import styles from '../../styles/allStyle/trusted.module.css'
-
+import Image from 'next/image'
 const Trusted = () => {
     return (
         <div className={styles.activity__main__div}>
@@ -15,7 +15,10 @@ const Trusted = () => {
                     </div> */}
 
                     <div className={styles.trusted__slide__avtar}>
-                        <img src="/images/cat1.jpg" alt="" />
+                        <Image src="/images/cat1.jpg" alt="" 
+                        width={100}
+                        height={100}
+                        />
                     </div>
                     <h5>Sourav Gupta</h5>
                     <span>Web Developer</span>
