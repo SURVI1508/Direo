@@ -9,7 +9,7 @@ const Subscribe = () => {
                     <div className={styles.getUpdate__main__container}>
                         <div className={styles.newsletter__box}>
                             <h2>Subscribe to Newsletter</h2>
-                            <p>Subscribe to get update and information. Don't worry, we won't send spam!</p>
+                            <p>Subscribe to get update and information. Dont worry, we wont send spam!</p>
                         </div>
 
                         <div className={styles.mail__submit__box}>
