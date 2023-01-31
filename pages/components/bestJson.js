@@ -87,4 +87,4 @@ const product = [
     }
 ]
 
-export default product
+export  {product}

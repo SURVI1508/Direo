@@ -6,7 +6,7 @@ import { TbPhoneCall } from 'react-icons/tb';
 import { MdOutlineWatchLater } from 'react-icons/md';
 import { BsEyeFill } from 'react-icons/bs';
 import Image from 'next/image';
-import product from './bestJson'
+import {product} from './bestJson'
 import { useState } from 'react';
 const BestListing = () => {
     const [products, setProducts] = useState(product)

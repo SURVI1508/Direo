@@ -1,7 +1,7 @@
 import styles from '../../styles/allStyle/activity.module.css'
 import { FaStore } from 'react-icons/fa';
 import { useState } from 'react'
-import activity from './activityJson'
+import {activity} from './activityJson'
 
 const Activity = () => {
     const [activities, setActivity] = useState(activity);
