@@ -38,4 +38,4 @@ const Drawer = () => {
     )
 }
 
-export  {Drawer}
+export default Drawer

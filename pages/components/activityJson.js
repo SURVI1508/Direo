@@ -52,4 +52,4 @@ const activity = [
     }
 
 ]
-export  {activity};
+export default activity;

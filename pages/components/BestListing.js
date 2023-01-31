@@ -6,7 +6,7 @@ import { TbPhoneCall } from 'react-icons/tb';
 import { MdOutlineWatchLater } from 'react-icons/md';
 import { BsEyeFill } from 'react-icons/bs';
 import Image from 'next/image';
-import {product} from './bestJson'
+import product from './bestJson'
 import { useState } from 'react';
 const BestListing = () => {
     const [products, setProducts] = useState(product)
@@ -26,7 +26,7 @@ const BestListing = () => {
                                                 <button>{val.cat}</button>
                                                 <div className={styles.bestCard__cards__like__btn}>
                                                     {/* <AiOutlineHeart /> */}
-                                                    {/* 💖 */}
+                                                    💖
                                                 </div>
                                             </div>
                                             <div className={styles.bestCard__cards__info}>
@@ -84,4 +84,4 @@ const BestListing = () => {
     )
 }
 
-export  {BestListing}
+export default BestListing

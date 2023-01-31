@@ -1,8 +1,8 @@
 import styles from '../../styles/allStyle/header.module.css'
-import {Nav} from './Nav'
-import {Search} from './Search'
-import {Category} from './Category'
-import {Drawer} from './Drawer'
+import Nav from './Nav'
+import Search from './Search'
+import Category from './Category'
+import Drawer from './Drawer'
 
 const Header = () => {
     return (
@@ -24,4 +24,4 @@ const Header = () => {
     )
 }
 
-export  {Header}
+export default Header

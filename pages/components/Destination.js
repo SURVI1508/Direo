@@ -65,4 +65,4 @@ const Destination = () => {
     )
 }
 
-export  {Destination}
+export default Destination
