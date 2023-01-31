@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../styles/allStyle/drawer.module.css'
 
 const Drawer = () => {
@@ -16,16 +17,16 @@ const Drawer = () => {
                             
                             <div className={styles.links__container__link}>
                                 <div className={styles.drawer__link__div}>
-                                    <a className={styles.Link}>Home</a>
+                                    <Link className={styles.Link} href='/'>Home</Link>
                                 </div>
                                 <div className={styles.drawer__link__div}>
-                                    <a className={styles.Link} href='/'>Listing</a>
+                                    <Link className={styles.Link} href='/'>Listing</Link>
                                 </div>
                                 <div className={styles.drawer__link__div}>
-                                    <a className={styles.Link} href='./Service'>Pages</a>
+                                    <Link className={styles.Link} href='./Service'>Pages</Link>
                                 </div>
                                 <div className={styles.drawer__link__div}>
-                                    <a className={styles.Link} href='./allComponent/Footer'>Categories</a>
+                                    <Link className={styles.Link} href='./allComponent/Footer'>Categories</Link>
                                 </div>
                                 <button className={styles.logout__btn}>Add Listining+</button>
                             </div>

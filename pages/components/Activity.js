@@ -19,7 +19,7 @@ const Activity = () => {
                                 <>
                                     <div className={styles.activity__cards} style={{ background: val.img }} key={val.id}>
                                         <div className={styles.activity__cards__overlay}>
-                                            <FaStore style={{ color: val.clr,fontSize:"1.7rem"}} />
+                                            <FaStore style={{fontSize:"1.7rem"}} />
                                             <span>{val.cat}</span>
                                             <button>{val.list}</button>
                                         </div>
@@ -28,7 +28,6 @@ const Activity = () => {
                             )
                         })
                     }
-
                 </div>
             </div>
         </div >

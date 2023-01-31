@@ -8,8 +8,8 @@ import { TbReplace } from 'react-icons/tb';
 const Category = () => {
     return (
         <div className={styles.category__main__div}>
-            <div className={styles.category__main__div__container} key={1}>
-                <div className={styles.category__card}>
+            <div className={styles.category__main__div__container}>
+                <div className={styles.category__card} key={1}>
                     <MdOutdoorGrill style={{ fontSize: "2rem", color: "yellow" }} />
                     <span>Outdoor Activities</span>
                 </div>
@@ -22,7 +22,7 @@ const Category = () => {
                     <span>Hotel</span>
                 </div>
                 <div className={styles.category__card} key={4}>
-                    <TbReplace style={{ fontSize: "1.7rem", color: "oranged" }} />
+                    <TbReplace style={{ fontSize: "1.7rem", color: "blue" }} />
                     <span>Place</span>
                 </div>
                 <div className={styles.category__card} key={5}>

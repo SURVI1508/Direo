@@ -6,8 +6,6 @@ import Destination from './components/Destination'
 import Trusted from './components/Trusted'
 import Subscribe from './components/Subscribe'
 import Footer from './components/Footer'
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 const Main = () => {
     return (
@@ -21,7 +19,6 @@ const Main = () => {
                 <Trusted />
                 <Subscribe />
                 <Footer />
-
             </div>
         </>
     )
